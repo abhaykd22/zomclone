@@ -164,7 +164,7 @@ class Filter extends Component {
 		this.setState({
 			cityId: event.target.value,
 		});
-		const { mealtypeId, cuisines, costForTwo, sort, page } = this.state;
+		const { mealtypeId, cuisines, costForTwo, sort } = this.state;
 		const tempCityId = event.target.value;
 		//Building query to be given in axios
 		const query = {};
@@ -220,14 +220,7 @@ class Filter extends Component {
 	};
 
 	cuisineHandler = (event) => {
-		const {
-			mealtypeId,
-			cuisines,
-			cityId,
-			costForTwo,
-			sort,
-			page,
-		} = this.state;
+		const { mealtypeId, cuisines, cityId, costForTwo, sort } = this.state;
 		let currentCuisine;
 		if (event.target) {
 			currentCuisine = event.target.value;
@@ -300,14 +293,7 @@ class Filter extends Component {
 			});
 	};
 	costHandler = (event) => {
-		const {
-			mealtypeId,
-			cuisines,
-			cityId,
-			costForTwo,
-			sort,
-			page,
-		} = this.state;
+		const { mealtypeId, cuisines, cityId, sort } = this.state;
 		//Building query to be given in axios
 		const query = {};
 		if (mealtypeId) {
@@ -365,14 +351,7 @@ class Filter extends Component {
 			});
 	};
 	sortHandler = (event) => {
-		const {
-			mealtypeId,
-			cuisines,
-			cityId,
-			costForTwo,
-			sort,
-			page,
-		} = this.state;
+		const { mealtypeId, cuisines, cityId, costForTwo, page } = this.state;
 		//Building query to be given in axios
 		const query = {};
 		if (mealtypeId) {
@@ -420,7 +399,6 @@ class Filter extends Component {
 			costForTwo,
 			sort,
 			page,
-			pageCount,
 		} = this.state;
 
 		//Adding clicked button functionality
@@ -498,7 +476,6 @@ class Filter extends Component {
 			page,
 			nextPage,
 			previousPage,
-			pageCount,
 		} = this.state;
 		//Building query to be given in axios
 		const query = {};
