@@ -170,7 +170,7 @@ class Header extends Component {
 			<React.Fragment>
 				<header id="zomato-header">
 					<div className="navbar">
-						<a id="navbar-icon" href="./home">
+						<a id="navbar-icon" href={'/home'}>
 							<h1>e!</h1>
 						</a>
 						<nav id="account">
