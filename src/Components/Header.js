@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import axios from 'axios';
 
@@ -170,9 +171,9 @@ class Header extends Component {
 			<React.Fragment>
 				<header id="zomato-header">
 					<div className="navbar">
-						<a id="navbar-icon" href={'/home'}>
+						<Link id="navbar-icon" to="/">
 							<h1>e!</h1>
-						</a>
+						</Link>
 						<nav id="account">
 							{sessionStorage.getItem('isLoggedIn') === 'true' ? (
 								<ul>
