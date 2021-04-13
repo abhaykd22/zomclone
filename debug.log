@@ -1,0 +1,13 @@
+[1216/161150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/161150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/161150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/161150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/162150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/162150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/162150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/162150.511:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[1216/162150.511:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\maste\AppData\Local\Google\Chrome\User Data\Crashpad\reports\b9607a72-7748-457e-b71c-ff3898c82ba7.dmp: The system cannot find the file specified. (0x2)
+[1216/162150.512:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\maste\AppData\Local\Google\Chrome\User Data\Crashpad\reports\ab009a47-fa97-4d4f-bf8a-69ddbdb5bb65.dmp: The system cannot find the file specified. (0x2)
+[1216/162150.512:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\maste\AppData\Local\Google\Chrome\User Data\Crashpad\reports\46b5863e-4370-4549-9e4c-2bbbfb8156ca.dmp: The system cannot find the file specified. (0x2)
+[1216/162150.512:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\maste\AppData\Local\Google\Chrome\User Data\Crashpad\reports\c4dd7976-84c6-430b-a763-209fe9675997.dmp: The system cannot find the file specified. (0x2)
+[1216/162150.512:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
